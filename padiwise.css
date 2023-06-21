@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:aliceblue;
+}
+div.first{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    position:relative;
+    background-color: blue;
+    height: 10rem;
+}
+div.second{
+    position:absolute;
+    background-color: white;
+    top:3rem;
+    border-radius: 0.4rem;
+    margin-left:3%;
+    width:90%;
+    height:auto;
+    line-height: 2.0;
+  }
+div.third{
+    display:grid;
+    grid-template-columns: auto auto;
+    
+}
+.bx-male{
+       font-size:2rem;
+}
+.bx-refresh, .bxs-bell{
+    color:white;
+    font-size:1.5rem;
+}
+span.sub-second, span.sub-third{
+    margin-left:3%;
+}
+span.sub-second{
+    font-size: small;
+}
+span.sub-third{
+    font-size:x-large;
+}
+.bx-minus-back{
+    margin-left: 60%;
+    color: blue;
+    border-radius: 0.9;
+    font-size:2rem;   
+}
+div.fourth, div.fifth{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 2rem;
+}
+.bx-right-arrow-alt, .bx-plus, .bx-box, .bx-purchase-tag-alt, .bx-network-chart, .bx-arrow-to-top,
+.bx-store-alt, .bx-message-rounded-detail, .bxs-receipt, .bxs-check-circle, .bx-credit-card, .bx-cog{
+    font-size:1.4rem;
+}
+#badie{
+    font-size:0.5rem;
+    width:4rem;
+    margin-left: -0.4rem;
+    line-height: 0.5;
+    font-weight: bolder;
+}
+div.sixth{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:5rem;
+    position:absolute;
+    top:30rem;
+}
+div.sixth > div{
+    background-color: white;
+    width: 7rem;
+    border-radius: 0.9rem;
+    line-height: 0.6;
+    padding-left:0.9rem;
+    padding-top: 0.5rem;
+    padding-bottom:0.8rem;
+
+}
+div.seventh{
+    display: grid;
+    grid-template-columns: auto auto 7rem auto auto;
+   
+    position:fixed;
+    bottom:0;
+    background-color: white;
+    width:100%;
+    height:auto;
+    }
+
+    @media(max-width:318px){
+        html{
+            visibility: hidden;
+        }
+    }
+    @media (min-width:481px){
+        div.sixth{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap:9rem;
+            position:absolute;
+            top:30rem;
+        }
+        div.sixth > div{
+            background-color: white;
+            width: 9rem;
+            border-radius: 0.9rem;
+            line-height: 0.6;
+            padding-left:0.9rem;
+            padding-top: 0.5rem;
+            padding-bottom:0.8rem;
+        
+        }
+    }
+
+    @media (min-width:773px){
+        div.sixth{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap:18rem;
+            position:absolute;
+            top:30rem;
+        }
+        div.sixth > div{
+            background-color: white;
+            width: 13rem;
+            border-radius: 0.9rem;
+            line-height: 0.6;
+            padding-left:0.9rem;
+            padding-top: 0.5rem;
+            padding-bottom:0.8rem;
+        
+        }
+    }
+    @media (min-width:1000px){
+        div.sixth{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap:20rem;
+            position:absolute;
+            top:30rem;
+        }
+        div.sixth > div{
+            background-color: white;
+            width: 20rem;
+            border-radius: 0.9rem;
+            line-height: 0.6;
+            padding-left:0.9rem;
+            padding-top: 0.5rem;
+            padding-bottom:0.8rem;
+        
+        }
+        div.second{
+            position:absolute;
+            background-color: white;
+            top:3rem;
+            border-radius: 0.4rem;
+            margin-left:3%;
+            width:93%;
+            height:auto;
+            line-height: 2.0;
+          }
+          .bx-minus-back{
+            margin-left: 80%;
+          }
+          div.fourth, div.fifth{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding-bottom: 2rem;
+            gap:8rem;
+        }
+        div.seventh{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            position:fixed;
+            bottom:0;
+            background-color: white;
+            width:100%;
+            height:auto;
+            }
+    }
